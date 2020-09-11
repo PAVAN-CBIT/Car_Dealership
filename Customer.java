@@ -31,7 +31,8 @@ public class Customer
   }
  public void purchaseCar(Vehicle vehicle ,Employee emp,boolean finance)
  {
- 
+    emp.handleCustomer(cust,finance,vehicle);
+   
  }
 
 
